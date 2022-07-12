@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+} 
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    }
+.attribution {
+    padding-top: 5px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    display: grid;
+    background: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: hsl(229, 6%, 66%);
+    
+}
+
+.cards {
+    display: grid;
+    grid-gap: 40px;
+    /* padding: 20px; */
+    align-items: center;
+    /* row-gap: 2fr;
+    column-gap: 2fr; */
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows:min-max(100px,auto) ;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 12px;
+}
+
+.card {
+    box-shadow: 2px 5px 10px 0 hsl(229, 6%, 66%);
+    padding: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    /* border: 2px solid black; */
+    
+}
+
+#karma{
+border-top: 0.5rem solid var(--Orange);
+grid-column:1/2 ;
+grid-row:1/3 ;
+}
+#supervisor{
+border-top: 0.5rem solid var(--Blue);
+/* align-self: end; */
+grid-column: 3/3;
+grid-row: 1/3; 
+}
+#team-builder{
+border-top: 0.5rem solid var(--Red);
+  /* align-self:center;  */
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+#calculator{
+border-top: 0.5rem solid var(--Cyan);
+/* align-self:; */
+grid-column:2/3;
+grid-row:2/3 ;
+}
+
+
+
+
+.icon-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+.card-info {
+    padding-top: 20px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.light-title{
+    color: hsl(229, 6%, 66%);
+}
+
+
+h1, h2 {
+    color: hsl(234, 12%, 34%);
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+.header {
+    /* margin-bottom: 40px; */
+    text-align: center;
+    /* padding: 0 21px; */
+
+}
+
+
+
+
+
+
+
+
+
+    
