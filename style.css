@@ -110,8 +110,27 @@ h1, h2 {
 
 }
 
+@media screen and (min-width: 375px) and (max-width:1440px){
 
 
+.cards{
+margin: 12px auto 0 auto; 
+max-width: 500px;
+display:flex;
+flex-direction: column;
+max-height: 60vh;
+grid-gap: 22px;
+}
+.attribution{
+    /* padding-top: 780px; */
+    padding-top: 48rem;
+}
+
+h1, h2 {
+margin-top: 1px;
+}
+
+}
 
 
 
